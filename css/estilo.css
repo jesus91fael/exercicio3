@@ -75,3 +75,14 @@ span{
     flex: 1;
 }
 
+@media(max-width:375px){
+
+    .box{
+        max-width: 250px;        
+    }
+
+    .perfil{
+        margin: 60px 75px;   
+    }
+
+}
