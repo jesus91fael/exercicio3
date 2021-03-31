@@ -16,7 +16,10 @@
     background-color: #2c9aa0;
     max-width: 1440px;
     min-height: 100vh;
-    z-index: 0;    
+    z-index: 0; 
+    display: flex;
+    justify-content: center;
+    align-items: center;   
 }
 
 
@@ -28,6 +31,7 @@
     background-color: #ffffff;
     overflow:hidden;    
     z-index: 1;    
+    flex: 1;
 }
 
 span{
